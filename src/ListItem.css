@@ -1,0 +1,22 @@
+.item {
+  list-style: none;
+  font-size: 1.3rem;
+  display: block;
+  padding: 3px 22px;
+  text-decoration: none;
+  border-radius: 20px;
+  color: #e50914;
+}
+
+.item:hover {
+  color: #e50914;
+  background-color: white;
+}
+
+@media screen and (max-width: 1170px) {
+  .item a {
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+  }
+}
